@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.ejemplo1composeridgs903"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.ejemplo1composeridgs903"
@@ -50,7 +50,7 @@ android {
 }
 
 dependencies {
-
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.6.5")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -59,6 +59,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.ui.text.google.fonts)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
